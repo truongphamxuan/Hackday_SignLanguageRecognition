@@ -37,23 +37,8 @@
             this.picBoxMain = new System.Windows.Forms.PictureBox();
             this.timerGrab = new System.Windows.Forms.Timer(this.components);
             this.txtK = new System.Windows.Forms.TextBox();
-            this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.openVideoFileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btnVideo = new System.Windows.Forms.ToolStripMenuItem();
-            this.trainToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip = new System.Windows.Forms.MenuStrip();
-            this.skinDetectToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.hSVToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.rGBToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.featureExtractToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.thresholdToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.edgeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.displayToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cropWindowToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.motionWindowToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.noiseRemovalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.additionalInfoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
             this.statusStrip.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxMain)).BeginInit();
@@ -119,27 +104,6 @@
             this.txtK.TabIndex = 23;
             this.txtK.Text = "18";
             // 
-            // fileToolStripMenuItem
-            // 
-            this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.openVideoFileToolStripMenuItem,
-            this.exitToolStripMenuItem});
-            this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(46, 31);
-            this.fileToolStripMenuItem.Text = "File...";
-            // 
-            // openVideoFileToolStripMenuItem
-            // 
-            this.openVideoFileToolStripMenuItem.Name = "openVideoFileToolStripMenuItem";
-            this.openVideoFileToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
-            this.openVideoFileToolStripMenuItem.Text = "Open Video File";
-            // 
-            // exitToolStripMenuItem
-            // 
-            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
-            this.exitToolStripMenuItem.Text = "Exit";
-            // 
             // btnVideo
             // 
             this.btnVideo.BackColor = System.Drawing.Color.Transparent;
@@ -151,13 +115,6 @@
             this.btnVideo.Text = "Start Video";
             this.btnVideo.Click += new System.EventHandler(this.btnVideo_Click);
             // 
-            // trainToolStripMenuItem
-            // 
-            this.trainToolStripMenuItem.Name = "trainToolStripMenuItem";
-            this.trainToolStripMenuItem.Size = new System.Drawing.Size(46, 31);
-            this.trainToolStripMenuItem.Text = "Train";
-            this.trainToolStripMenuItem.Click += new System.EventHandler(this.trainToolStripMenuItem_Click);
-            // 
             // menuStrip
             // 
             this.menuStrip.AllowMerge = false;
@@ -165,108 +122,12 @@
             this.menuStrip.BackColor = System.Drawing.Color.LightGray;
             this.menuStrip.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("menuStrip.BackgroundImage")));
             this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.fileToolStripMenuItem,
-            this.skinDetectToolStripMenuItem,
-            this.featureExtractToolStripMenuItem,
-            this.displayToolStripMenuItem,
-            this.trainToolStripMenuItem,
             this.btnVideo});
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
             this.menuStrip.Size = new System.Drawing.Size(645, 35);
             this.menuStrip.TabIndex = 19;
             this.menuStrip.Text = "menuStrip1";
-            // 
-            // skinDetectToolStripMenuItem
-            // 
-            this.skinDetectToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.hSVToolStripMenuItem,
-            this.rGBToolStripMenuItem});
-            this.skinDetectToolStripMenuItem.Name = "skinDetectToolStripMenuItem";
-            this.skinDetectToolStripMenuItem.Size = new System.Drawing.Size(87, 31);
-            this.skinDetectToolStripMenuItem.Text = "Skin Detect...";
-            // 
-            // hSVToolStripMenuItem
-            // 
-            this.hSVToolStripMenuItem.Checked = true;
-            this.hSVToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.hSVToolStripMenuItem.Name = "hSVToolStripMenuItem";
-            this.hSVToolStripMenuItem.Size = new System.Drawing.Size(96, 22);
-            this.hSVToolStripMenuItem.Text = "HSV";
-            this.hSVToolStripMenuItem.Click += new System.EventHandler(this.hSVToolStripMenuItem_Click);
-            // 
-            // rGBToolStripMenuItem
-            // 
-            this.rGBToolStripMenuItem.Name = "rGBToolStripMenuItem";
-            this.rGBToolStripMenuItem.Size = new System.Drawing.Size(96, 22);
-            this.rGBToolStripMenuItem.Text = "RGB";
-            this.rGBToolStripMenuItem.Click += new System.EventHandler(this.rGBToolStripMenuItem_Click);
-            // 
-            // featureExtractToolStripMenuItem
-            // 
-            this.featureExtractToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.thresholdToolStripMenuItem,
-            this.edgeToolStripMenuItem});
-            this.featureExtractToolStripMenuItem.Name = "featureExtractToolStripMenuItem";
-            this.featureExtractToolStripMenuItem.Size = new System.Drawing.Size(67, 31);
-            this.featureExtractToolStripMenuItem.Text = "Feature...";
-            // 
-            // thresholdToolStripMenuItem
-            // 
-            this.thresholdToolStripMenuItem.Checked = true;
-            this.thresholdToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.thresholdToolStripMenuItem.Name = "thresholdToolStripMenuItem";
-            this.thresholdToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
-            this.thresholdToolStripMenuItem.Text = "Threshold";
-            // 
-            // edgeToolStripMenuItem
-            // 
-            this.edgeToolStripMenuItem.Name = "edgeToolStripMenuItem";
-            this.edgeToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
-            this.edgeToolStripMenuItem.Text = "Edge";
-            this.edgeToolStripMenuItem.Click += new System.EventHandler(this.edgeToolStripMenuItem_Click);
-            // 
-            // displayToolStripMenuItem
-            // 
-            this.displayToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.cropWindowToolStripMenuItem,
-            this.motionWindowToolStripMenuItem,
-            this.noiseRemovalToolStripMenuItem,
-            this.additionalInfoToolStripMenuItem});
-            this.displayToolStripMenuItem.Name = "displayToolStripMenuItem";
-            this.displayToolStripMenuItem.Size = new System.Drawing.Size(66, 31);
-            this.displayToolStripMenuItem.Text = "Display...";
-            // 
-            // cropWindowToolStripMenuItem
-            // 
-            this.cropWindowToolStripMenuItem.Checked = true;
-            this.cropWindowToolStripMenuItem.CheckOnClick = true;
-            this.cropWindowToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.cropWindowToolStripMenuItem.Name = "cropWindowToolStripMenuItem";
-            this.cropWindowToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
-            this.cropWindowToolStripMenuItem.Text = "Crop Window";
-            // 
-            // motionWindowToolStripMenuItem
-            // 
-            this.motionWindowToolStripMenuItem.Checked = true;
-            this.motionWindowToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.motionWindowToolStripMenuItem.Name = "motionWindowToolStripMenuItem";
-            this.motionWindowToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
-            this.motionWindowToolStripMenuItem.Text = "Motion Window";
-            // 
-            // noiseRemovalToolStripMenuItem
-            // 
-            this.noiseRemovalToolStripMenuItem.Checked = true;
-            this.noiseRemovalToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.noiseRemovalToolStripMenuItem.Name = "noiseRemovalToolStripMenuItem";
-            this.noiseRemovalToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
-            this.noiseRemovalToolStripMenuItem.Text = "Noise Removal";
-            // 
-            // additionalInfoToolStripMenuItem
-            // 
-            this.additionalInfoToolStripMenuItem.Name = "additionalInfoToolStripMenuItem";
-            this.additionalInfoToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
-            this.additionalInfoToolStripMenuItem.Text = "Additional Info";
             // 
             // label1
             // 
@@ -294,7 +155,7 @@
             this.Location = new System.Drawing.Point(10, 10);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-            this.Text = "Vision C#";
+            this.Text = "Hackday Sign Language Recognition";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.MainForm_KeyDown);
             this.statusStrip.ResumeLayout(false);
             this.statusStrip.PerformLayout();
@@ -312,27 +173,12 @@
         public System.Windows.Forms.TextBox textBox;
         private System.Windows.Forms.PictureBox picBoxMain;
         private System.Windows.Forms.Timer timerGrab;
-        private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem openVideoFileToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem btnVideo;
-        private System.Windows.Forms.ToolStripMenuItem trainToolStripMenuItem;
         private System.Windows.Forms.MenuStrip menuStrip;
         public System.Windows.Forms.TextBox txtK;
         private System.Windows.Forms.Label label1;
         public System.Windows.Forms.StatusStrip statusStrip;
         public System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel;
-        private System.Windows.Forms.ToolStripMenuItem skinDetectToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem hSVToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem rGBToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem featureExtractToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem thresholdToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem edgeToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem displayToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem cropWindowToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem motionWindowToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem noiseRemovalToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem additionalInfoToolStripMenuItem;
     }
 }
 

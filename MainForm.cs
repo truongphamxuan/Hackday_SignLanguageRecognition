@@ -154,39 +154,7 @@ namespace HackdaySignLanguageRecognition
         {
             train_data();
         }
-
-        private void thresholdToolStripMenuItem_Click()
-        {
-            showThres = true;
-            thresholdToolStripMenuItem.Checked = true;
-            edgeToolStripMenuItem.Checked = false;
-            showEdge = false;
-        }
         
-        private void edgeToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            showEdge = true;
-            edgeToolStripMenuItem.Checked = true;
-            thresholdToolStripMenuItem.Checked = false;
-            showThres = false;
-        }
-
-        private void hSVToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            showSkinHSV = true;
-            hSVToolStripMenuItem.Checked = true;
-            rGBToolStripMenuItem.Checked = false;
-            showSkinRGB = false;
-        }
-
-        private void rGBToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            showSkinRGB = true;
-            rGBToolStripMenuItem.Checked = true;
-            hSVToolStripMenuItem.Checked = false;
-            showSkinHSV = false;
-        }
-
         private void MainForm_KeyDown(object sender, KeyEventArgs e)
         {
             namaFile = e.KeyCode.ToString();
@@ -238,15 +206,15 @@ namespace HackdaySignLanguageRecognition
 
         public void initialize()
         {            
-            highgui.CvNamedWindow("Crop");
-            highgui.CvMoveWindow("Crop", 675, 10);
+            //highgui.CvNamedWindow("Crop");
+            //highgui.CvMoveWindow("Crop", 675, 10);
                  
-            highgui.CvNamedWindow("Motion");
-            highgui.CvMoveWindow("Motion", 950, 10);
+            //highgui.CvNamedWindow("Motion");
+            //highgui.CvMoveWindow("Motion", 950, 10);
 
-            skin_dlg();
-            dlgParam.Show();
-            dlgParam.Location = new Point(675, 300);
+            //skin_dlg();
+            //dlgParam.Show();
+            //dlgParam.Location = new Point(675, 300);
 
             initialized = true;
         }
@@ -261,16 +229,7 @@ namespace HackdaySignLanguageRecognition
                 dlgParam.Hide();
             if(dlgCanny != null)
                 dlgCanny.Hide();
-
-            if (thresholdToolStripMenuItem.Checked)
-                showThres = true;
-            if (edgeToolStripMenuItem.Checked)
-                showEdge = true;
-            if (hSVToolStripMenuItem.Checked)
-                showSkinHSV = true;
-            if (rGBToolStripMenuItem.Checked)
-                showSkinRGB = true;
-
+            
             textBox.Clear();                        
 
             reset = false;

@@ -14,7 +14,7 @@ namespace HackdaySignLanguageRecognition
         string file_path = "..\\..\\Training\\";
 
         int train_samples = 50;
-        int classes = 19;
+        int classes = 26;
 
         public IplImage src_image;
         public IplImage prs_image;

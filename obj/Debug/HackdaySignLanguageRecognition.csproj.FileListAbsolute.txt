@@ -12,3 +12,17 @@ C:\Users\truong.pham2\Desktop\SourceCode\Hackday\obj\Debug\HackdaySignLanguageRe
 C:\Users\truong.pham2\Desktop\SourceCode\Hackday\obj\Debug\HackdaySignLanguageRecognition.application
 C:\Users\truong.pham2\Desktop\SourceCode\Hackday\obj\Debug\HackdaySignLanguageRecognition.exe
 C:\Users\truong.pham2\Desktop\SourceCode\Hackday\obj\Debug\HackdaySignLanguageRecognition.pdb
+C:\Users\Truong Pham\Desktop\Niteco\HackDay\SourceCode\obj\Debug\HackdaySignLanguageRecognition.exe
+C:\Users\Truong Pham\Desktop\Niteco\HackDay\SourceCode\obj\Debug\HackdaySignLanguageRecognition.pdb
+C:\Users\Truong Pham\Desktop\Niteco\HackDay\SourceCode\bin\Debug\HackdaySignLanguageRecognition.exe.manifest
+C:\Users\Truong Pham\Desktop\Niteco\HackDay\SourceCode\bin\Debug\HackdaySignLanguageRecognition.application
+C:\Users\Truong Pham\Desktop\Niteco\HackDay\SourceCode\bin\Debug\HackdaySignLanguageRecognition.exe
+C:\Users\Truong Pham\Desktop\Niteco\HackDay\SourceCode\bin\Debug\HackdaySignLanguageRecognition.pdb
+C:\Users\Truong Pham\Desktop\Niteco\HackDay\SourceCode\bin\Debug\cvlibcs.dll
+C:\Users\Truong Pham\Desktop\Niteco\HackDay\SourceCode\obj\Debug\HackdaySignLanguageRecognition.csprojResolveAssemblyReference.cache
+C:\Users\Truong Pham\Desktop\Niteco\HackDay\SourceCode\obj\Debug\HackdaySignLanguageRecognition.DlgParams.resources
+C:\Users\Truong Pham\Desktop\Niteco\HackDay\SourceCode\obj\Debug\HackdaySignLanguageRecognition.MainForm.resources
+C:\Users\Truong Pham\Desktop\Niteco\HackDay\SourceCode\obj\Debug\HackdaySignLanguageRecognition.Properties.Resources.resources
+C:\Users\Truong Pham\Desktop\Niteco\HackDay\SourceCode\obj\Debug\HackdaySignLanguageRecognition.csproj.GenerateResource.Cache
+C:\Users\Truong Pham\Desktop\Niteco\HackDay\SourceCode\obj\Debug\HackdaySignLanguageRecognition.exe.manifest
+C:\Users\Truong Pham\Desktop\Niteco\HackDay\SourceCode\obj\Debug\HackdaySignLanguageRecognition.application

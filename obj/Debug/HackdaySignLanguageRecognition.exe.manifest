@@ -69,14 +69,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HackdaySignLanguageRecognition.exe" size="96768">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HackdaySignLanguageRecognition.exe" size="93184">
       <assemblyIdentity name="HackdaySignLanguageRecognition" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>aQQIauWiEp/Oa2j145jHxfqQeDM=</dsig:DigestValue>
+        <dsig:DigestValue>hmlwVgvnAX4Nsv5raXznqWHYfB0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
